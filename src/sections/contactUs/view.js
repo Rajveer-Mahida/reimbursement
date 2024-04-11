@@ -6,7 +6,6 @@ import Typography from '@mui/material/Typography';
 // components
 import { useSettingsContext } from 'src/components/settings';
 import ContactusTextfieldPage from 'src/pages/components/mui/contactustextfield';
-import Map from 'src/components/contactus/map';
 import { Grid } from '@mui/material';
 
 // ----------------------------------------------------------------------
@@ -33,7 +32,7 @@ export default function ContactUsView() {
             <ContactusTextfieldPage />
           </Grid>
           <Grid item  xs={6} md={4}>
-            <Map />
+          Map
           </Grid>
         </Grid>
       </Box>
